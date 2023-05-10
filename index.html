@@ -10,8 +10,8 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center;}
-    .attribution a { color: hsl(228, 45%, 44%); }
+    footer { font-size: 11px; text-align: center;}
+    footer a { color: hsl(228, 45%, 44%); }
     body{
       margin: 0;
       padding: 0;
@@ -24,7 +24,7 @@
       background-color: #d5e1ef;
       font-family: 'roboto', sans-serif;
     }
-    .main-container{
+    main{
       height: 98vh;
       display: flex;
       flex-direction: column;
@@ -40,6 +40,7 @@
       padding: 1rem;
       max-width: 290px;
       border-radius: 20px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     }
     .title{
       color: #1e273d;
@@ -57,25 +58,20 @@
   </style>
 </head>
 <body>
-  <div class="main-container">
-
-    <div class="card">
-
-        <img src="../images/image-qr-code.png">
-  
-      <div class="title">
-        Improve your front-end <br> skills by building projects
+  <main>
+      <div class="card">
+        <img src="https://jorgecastillag.github.io/qr-code-component-main/images/image-qr-code.png" alt="qr-code">
+        <div class="title">
+          Improve your front-end <br> skills by building projects
+        </div>
+        <div class="message">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </div>
       </div>
-      <div class="message">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-
-      </div>
-    </div>
-  </div>
-  
-  <div class="attribution">
+  </main>
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Jorge Castilla</a>.
+  </footer>
 </body>
 </html>
